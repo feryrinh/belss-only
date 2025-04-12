@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja Rápida</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+    }
+    .produto {
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 1rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .produto img {
+      max-width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    .produto h3 {
+      margin: 0.5rem 0;
+    }
+    .produto p {
+      color: #555;
+    }
+    .whatsapp {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.5rem 1rem;
+      background-color: #25D366;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #222;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Loja Rápida</h1>
+    <p>Os melhores produtos direto pra você</p>
+  </header>
+
+  <section class="produtos">
+    <div class="produto">
+      <img src="https://via.placeholder.com/250x150" alt="Produto 1">
+      <h3>Produto Teste 1</h3>
+      <p>R$ 49,90</p>
+      <a class="whatsapp" href="https://wa.me/5599999999999" target="_blank">Comprar no WhatsApp</a>
+    </div>
+    <div class="produto">
+      <img src="https://via.placeholder.com/250x150" alt="Produto 2">
+      <h3>Produto Teste 2</h3>
+      <p>R$ 89,90</p>
+      <a class="whatsapp" href="https://wa.me/5599999999999" target="_blank">Comprar no WhatsApp</a>
+    </div>
+    <div class="produto">
+      <img src="https://via.placeholder.com/250x150" alt="Produto 3">
+      <h3>Produto Teste 3</h3>
+      <p>R$ 29,90</p>
+      <a class="whatsapp" href="https://wa.me/5599999999999" target="_blank">Comprar no WhatsApp</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Loja Rápida - Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
